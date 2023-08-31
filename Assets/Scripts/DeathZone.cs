@@ -12,4 +12,9 @@ public class DeathZone : MonoBehaviour
         Destroy(other.gameObject);
         Manager.GameOver();
     }
+
+    public void setManager(MainManager manager)
+    {
+        Manager = manager;
+    }
 }
